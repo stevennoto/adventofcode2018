@@ -1,5 +1,3 @@
-import java.io.File
-
 // https://adventofcode.com/2018/day/1
 fun main(args: Array<String>) {
 	day1a()

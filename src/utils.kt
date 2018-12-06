@@ -1,5 +1,10 @@
 import java.io.File
 
+fun parseFileAsString(filename:String) : String {
+	return File(filename)
+			.readText()
+}
+
 fun parseFileAsList(filename:String) : List<String> {
 	return File(filename)
 			.readText()
